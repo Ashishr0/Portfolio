@@ -1,8 +1,8 @@
-# Ashish Kumar Portfolio Website
+# Portfolio 
 
 A modern, responsive, and interactive portfolio website built to showcase my skills, projects, and achievements as a B.Tech Computer Science Engineering Student and Full Stack Developer.
 
-# Live Preview
+# Live App
   🌐[LiveApp](https://portfolio-kappa-rust-64.vercel.app/)
 
 
@@ -38,14 +38,4 @@ Clean and Organized Code
 # Tools
 - GitHub
 - VS Code
-📂 Project Structure
-Portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-├── assets/
-│   ├── profile.jpg
-│   └── qr.png
-│
-└── README.md
+
