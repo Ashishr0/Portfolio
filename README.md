@@ -2,7 +2,7 @@
 
 A modern, responsive, and interactive portfolio website built to showcase my skills, projects, and achievements as a B.Tech Computer Science Engineering Student and Full Stack Developer.
 
-# Live App
+
   🌐[LiveApp](https://portfolio-kappa-rust-64.vercel.app/)
 
 
