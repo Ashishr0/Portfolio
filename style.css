@@ -231,3 +231,112 @@ footer{
 }
 
 }
+/* Mobile Responsive */
+
+@media screen and (max-width: 768px) {
+
+    nav{
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero-content{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .left h1{
+        font-size: 2.2rem;
+        line-height: 1.3;
+        word-break: break-word;
+    }
+
+    .left h3{
+        font-size: 1.1rem;
+    }
+
+    .left p{
+        font-size: 0.95rem;
+    }
+
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .btn,
+    .btn-outline{
+        width: 220px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .profile-card{
+        width: 100%;
+        max-width: 320px;
+        margin: auto;
+    }
+
+    .profile-card img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .skills-container,
+    .projects-grid{
+        grid-template-columns: 1fr;
+    }
+
+    section{
+        padding: 60px 20px;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    #qr img{
+        width: 200px;
+        max-width: 100%;
+    }
+
+    .contact-box{
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    footer{
+        padding: 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Prevent horizontal scrolling */
+
+html,
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Responsive images */
+
+img{
+    max-width: 100%;
+    height: auto;
+}
